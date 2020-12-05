@@ -1,0 +1,155 @@
+<!--
+CENTRO UNIVERSITÁRIO UNICARIOCA
+TRABALHO PRÁTICO AV1 - DESENVOLVIMENTO DE APLICAÇÕES WEB
+NOME: DARLAN FREIRE MENDONÇA DA SILVA
+MATRÍCULA: 2017102635
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Integração feita com Materialize: front-end framework based on Material Design-->
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!--ALTERANDO O ÍCONE DA ABA HTML-->
+    <link rel="stylesheet" href="./style-frontendAV1.css" />
+    <link rel="shortcut icon" href="./icon.png" />
+    <title>PokéPortal</title>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <!--ÁREA DO CABEÇALHO-->
+      <header style="display: flex; flex-direction: row" id="cabecalho">
+        <img
+          style="width: 50px; height: 50px"
+          class="logo flex-row flex-center"
+          src="./icon.png"
+        />
+        <h1 style="color: white; font-size: 2rem; margin-right: 200px">
+          PokéPortal - Tudo sobre Pokémons.
+        </h1>
+      </header>
+      <p>
+        Visite também o Website Oficial Pokémon Brasil, clicando
+        <a
+          style="font-weight: bold"
+          href="https://www.pokemon.com/br/"
+          target="_blank"
+          >aqui.</a
+        >
+      </p>
+      <!----------------------------------------------------------------->
+
+      <!--ÁREA DO LOGO POKÉMON-->
+      <img class="logo flex-row flex-center" src="./logo.png" />
+      <div style="margin-top: 30px" class="container">
+        <!---------------------->
+        <!--ÁREA DO FORMULÁRIO DE LOGIN E SENHA-->
+        <form>
+          <h4>Login do treinador:</h4>
+
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate" />
+            <label for="email">Email</label>
+          </div>
+
+          <div class="input-field col s12">
+            <input id="password" type="password" class="validate" />
+            <label for="password">Senha</label>
+          </div>
+        </form>
+      </div>
+      <!----------------------------------------------------------------->
+
+      <!--ÁREA DO SPINNER AGUARDE... QUANDO A PÁGINA É RECARREGADA-->
+      <div id="divSpinner" class="flex-row flex-center">
+        <div class="preloader-wrapper active">
+          <div class="spinner-layer spinner-blue-only">
+            <div class="circle-clipper left">
+              <div class="circle"></div>
+            </div>
+            <div class="gap-patch">
+              <div class="circle"></div>
+            </div>
+            <div class="circle-clipper right">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        <span style="margin-left: 10px; font-size: 1.5rem"
+          ><strong>Aguarde...</strong></span
+        >
+      </div>
+      <!----------------------------------------------------------------->
+
+      <!--ÁREA DE PESQUISA DE POKÉMON LOGO APÓS O SPINNER SAIR DE TELA-->
+      <div id="divInteraction" class="hidden">
+        <div class="container">
+          <h4 class="titulo-portal">Pesquisa de Pokémon</h4>
+
+          <div class="flex-row">
+            <div class="input-field input">
+              <input
+                placeholder="Exemplos: Bulbasaur, Charmander, Squirtle, Caterpie, Pikachu..."
+                id="inputBuscar"
+                type="text"
+                class="validate"
+              />
+              <label for="inputBuscar">Pesquisar</label>
+            </div>
+
+            <button
+              style="font-weight: bold"
+              id="botaoBuscar"
+              class="waves-effect waves-light btn"
+            >
+              Buscar
+            </button>
+          </div>
+          <!----------------------------------------------------------------->
+
+          <!--ÁREA DO PAINEL ONDE APARECE A IMAGEM DO POKÉMON E ESTATÍSTICA-->
+          <div class="flex-row flex-align-top center">
+            <div id="painelPokemon" class="painel">
+              <h3 style="color: white"><strong>Nenhum pokémon</strong></h3>
+            </div>
+            <div id="painelEstatisticas" class="painel">
+              <h3 style="color: white"><strong>Estatísticas</strong></h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!----------------------------------------------------------------->
+
+      <!--ÁREA DO VÍDEO-->
+      <div class="container">
+        <p style="margin-top: 30px">
+          Assista ao trailer oficial de lançamento do novo Pokémon Unite.
+          Disponível em breve para smartphones Android, IPhone(iOS) e Nintendo
+          Switch.
+        </p>
+        <div id="video" class="container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/uGzte0571hA"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <!----------------------------------------------------------------->
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      <script src="./script-frontendAV1.js"></script>
+    </div>
+  </body>
+</html>
