@@ -1,1 +1,1 @@
-<?php include_once("frontEndAV1.html"); ?>
+<?php header( 'Location: /frontEndAV1.html' ) ; ?>
