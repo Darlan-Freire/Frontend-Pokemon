@@ -1,0 +1,250 @@
+/*
+CENTRO UNIVERSITÁRIO UNICARIOCA
+TRABALHO PRÁTICO - DESENVOLVIMENTO DE APLICAÇÕES WEB
+NOME: DARLAN FREIRE MENDONÇA DA SILVA
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One); /*importação de fontes da API do google*/
+@import url('https://fonts.googleapis.com/css?family=Amarante'); /*importação de fontes da API do google*/
+
+html {
+  overflow-y: scroll; /*Habilita a barra de scroll na página para rolagem*/
+}
+
+#cabecalho {
+  background: #585858; /*Altera a cor de plano de fundo*/
+  border: solid #3b5ba7 3px; /*Adiciona uma borda, solida com a cor em hexadecimal com 3px de espessura*/
+  padding: 4px; /*Adiciona um espaçamento interno da tag*/
+  margin: auto; /* Ajusta automaticamente toda margem do cabeçalho */
+}
+
+#wrapper {
+  width: 900px; /*Ajusta a largura da página*/
+  height: auto; /*Ajusta a altura da página*/
+  margin: auto;
+  margin-bottom: 20px;
+  display: block; /* tornara si mesmo um bloco fixo, não podendo ser alterado no alinhamento */
+  background: #fff;
+  padding: 10px 17px;
+  box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.5); /*Adiciona uma sombra preta nas bordas*/
+}
+
+body {
+  background: #eee url('https://i.imgur.com/eeQeRmk.png'); /* https://subtlepatterns.com/weave/ */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /*Altera a fonte*/
+  font-size: 62.5%; /*Tamanho da fonte */
+  line-height: 1; /*Determina a dimensão de progressão do bloco da área de conteúdo de texto de uma caixa embutida.*/
+  color: #585858; /*Cor do elemento texto*/
+  padding: 22px 10px;
+  padding-bottom: 55px; /*espaçamento interdo inferior do elemento*/
+}
+
+.titulo-portal {
+  -webkit-text-stroke-width: 0.1rem;
+  -webkit-text-stroke-color: #3b5ba7;
+  text-align: center; /*Alinhamento do texto ao centro*/
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffcb05;
+  font-size: 2.5rem;
+}
+
+.pesquisa-pokemon {
+  color: violet;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.top {
+  margin-top: 2cm;
+}
+
+.flex-align-top {
+  align-items: flex-start; /*alinhamento dos itens no começo do elemento*/
+}
+
+.flex-center {
+  justify-content: center; /* alinhar conteudo interno horizontalmente*/
+}
+
+.flex-row {
+  display: flex; /* tornara si mesmo como flexivel podendo alterar alinhamentos */
+  flex-direction: row; /* alinhar conteudo em uma linha */
+  align-items: center;
+}
+.input {
+  width: 100%;
+  margin-right: 10px;
+}
+.btn {
+  border-radius: 5px; /*Aredondar as bordas*/
+  border: solid #3b5ba7 4px;
+  background: #ffcb05;
+  text-transform: uppercase;
+}
+
+.painel {
+  width: 50%;
+  border: 2px solid lightgrey;
+  margin-right: 10px;
+  border-radius: 10%;
+  padding: 10px;
+  background: #585858;
+  border: #3b5ba7 solid 3px;
+}
+
+#video {
+  margin-top: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h4 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  padding: 2px;
+  margin: auto;
+}
+
+.hidden {
+  display: none; /* O elemento permanece oculto na página*/
+}
+
+.logo {
+  width: 370px;
+  height: 130px;
+  margin: auto;
+}
+
+.center {
+  justify-content: center;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*Link não visitado */
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+/*Link já visitado*/
+a:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+/*Quando o mouse passa por cima*/
+a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+/*Link ativo/selecionado*/
+a:active {
+  color: yellow;
+  text-decoration: none;
+}
