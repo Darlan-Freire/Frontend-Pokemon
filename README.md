@@ -5,7 +5,7 @@
 ![](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif)
 ## Introdução:
 
-FrontEnd feito com HTML, CSS e JavaScript com o propósito de criar uma para página de Pokémons com um campo de pesquisa, onde é possível consultar o registro de cada pokémon através de uma requição HTTP por meio de uma API RESTful.
+FrontEnd feito com HTML, CSS e JavaScript com o propósito de criar uma página de Pokémons com um campo de pesquisa, onde é possível consultar o registro de cada pokémon através de uma requição HTTP por meio de uma API RESTful.
 <br>
 <br>
 
