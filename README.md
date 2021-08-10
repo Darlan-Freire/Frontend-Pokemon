@@ -13,5 +13,8 @@ API utilizada e agradecimentos:
 <br>
 PokéAPI By [@phalt](https://github.com/phalt)
 <br> https://pokeapi.co/
+<br>
+<br>
+Frameworks utilizados: <br> https://materializecss.com/
 
 ![](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/150.gif)
