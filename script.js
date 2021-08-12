@@ -1,9 +1,3 @@
-/*
-CENTRO UNIVERSITÁRIO UNICARIOCA
-TRABALHO PRÁTICO - DESENVOLVIMENTO DE APLICAÇÕES WEB
-NOME: DARLAN FREIRE MENDONÇA DA SILVA
-*/
-
 //Variáveis Globais
 let inputBuscar = null, //campo input de pesquisa
   botaoBuscar = null, //botao de buscar
